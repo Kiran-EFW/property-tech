@@ -1,0 +1,24 @@
+{
+  "name": "proptech",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/investor-web",
+    "dev:dashboard": "npm run dev -w apps/dashboard",
+    "build:web": "npm run build -w apps/investor-web",
+    "build:dashboard": "npm run build -w apps/dashboard",
+    "dev": "npm run dev:web & npm run dev:dashboard",
+    "build": "npm run build -w packages/shared && npm run build -w packages/api-client && npm run build:web && npm run build:dashboard",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Inter', 'Noto Sans Devanagari', sans-serif;
+
+  /* Green scale (success / positive) */
+  --color-green-50: #effdf5;
+  --color-green-100: #d9fbe8;
+  --color-green-200: #b3f5d1;
+  --color-green-300: #75edae;
+  --color-green-400: #00dc82;
+  --color-green-500: #00c16a;
+  --color-green-600: #00a155;
+  --color-green-700: #007f45;
+  --color-green-800: #016538;
+  --color-green-900: #0a5331;
+  --color-green-950: #052e16;
+
+  /* Brand — Deep Blue  (edit these hex values to rebrand) */
+  --color-brand-50: #f0f5fa;
+  --color-brand-100: #dce6f0;
+  --color-brand-200: #b8cce0;
+  --color-brand-300: #8eaed0;
+  --color-brand-400: #6690be;
+  --color-brand-500: #4474a8;
+  --color-brand-600: #335d8e;
+  --color-brand-700: #284a72;
+  --color-brand-800: #1e3a5f;
+  --color-brand-900: #162d4a;
+  --color-brand-950: #0e1d30;
+
+  /* Accent — Gold  (edit these hex values to rebrand) */
+  --color-accent-50: #fdf9f3;
+  --color-accent-100: #faf0de;
+  --color-accent-200: #f4ddb8;
+  --color-accent-300: #edc68a;
+  --color-accent-400: #e3aa56;
+  --color-accent-500: #d4932e;
+  --color-accent-600: #b37a26;
+  --color-accent-700: #8a6029;
+  --color-accent-800: #6f4c22;
+  --color-accent-900: #573b1b;
+  --color-accent-950: #3a2712;
+}

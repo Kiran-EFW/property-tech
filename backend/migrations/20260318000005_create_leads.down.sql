@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS lead_notes;
+DROP TABLE IF EXISTS leads;
